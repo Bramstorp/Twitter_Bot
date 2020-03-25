@@ -1,6 +1,11 @@
 import tweepy
 import time
 
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
+
 # Get this key from Twitter Api u can search u get the api as a Twitter Developer
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
